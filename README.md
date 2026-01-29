@@ -14,6 +14,9 @@ InventoryLinkedList → Custom linked list implementation with methods to add, d
 InventoryLoader → Loads inventory data from CSV using OpenCSV.
 InventorySorter → Contains bubble sort methods (by brand, price, quantity).
 InventoryDisplay → Utility class for displaying arrays of inventory items.
+InventorySearch → Provides search functionality:
+      searchByEntryNumber() → Finds a single item by its unique entry number.
+      searchByBrand() → Finds and displays all items matching a given brand.
 MmdcDatastructuresAlgorithms → Main entry point. Provides a menu-driven console app to interact with the inventory.
 
 Dependencies

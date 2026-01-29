@@ -1,0 +1,51 @@
+EntrNo,Brand,Model,Details,UnitPrice,StockQty,Status
+1,Honda,CBR500R,"Sport / Parallel-twin, liquid-cooled, 471cc, 6-speed",389000,0,Out of Stock
+2,Yamaha,MT-15,"Naked bike / Single cylinder, liquid-cooled, 155cc, 6-speed",178000,7,Available
+3,Kawasaki,Ninja 400,"Sport / Parallel-twin, liquid-cooled, 399cc, 6-speed",340000,0,Out of Stock
+4,Suzuki,Raider R150 Fi,"Underbone / Single cylinder, liquid-cooled, 150cc, 6-speed",119900,0,Out of Stock
+5,Royal,Enfield Classic 350,"Classic / Single cylinder, air-cooled, 349cc, 5-speed",250000,13,Available
+6,CFMoto,300NK,"Naked bike / Single cylinder, liquid-cooled, 292cc, 6-speed",165000,17,Available
+7,Bristol,Veloce 500,"Cafe racer / Twin cylinder, air-cooled, 471cc, 6-speed",328000,13,Available
+8,KTM,Duke 200,"Naked bike / Single cylinder, liquid-cooled, 199cc, 6-speed",178000,14,Available
+9,Yamaha,XSR155,"Retro / Single cylinder, liquid-cooled, 155cc, 6-speed",182000,6,Available
+10,Bajaj,Dominar 400,"Sport touring / Single cylinder, liquid-cooled, 373cc, 6-speed",199900,10,Available
+11,Yamaha,NMAX 155,"Scooter / Single cylinder, liquid-cooled, 155cc, CVT",151900,11,Available
+12,Honda,ADV 160,"Scooter / Single cylinder, liquid-cooled, 157cc, CVT",164900,12,Available
+13,Suzuki,Avenis 125,"Scooter / Single cylinder, air-cooled, 124cc, CVT",79900,1,Low Stock
+14,KTM,RC 200,"Sport / Single cylinder, liquid-cooled, 199cc, 6-speed",198000,6,Available
+15,BMW,G 310 GS,"Adventure / Single cylinder, liquid-cooled, 313cc, 6-speed",320000,20,Available
+16,TVS,Apache RTR 200 4V,"Naked bike / Single cylinder, oil-cooled, 197cc, 5-speed",129000,0,Out of Stock
+17,Husqvarna,Svartpilen 401,"Scrambler / Single cylinder, liquid-cooled, 373cc, 6-speed",295000,8,Available
+18,Vespa,Primavera 150,"Scooter / Single cylinder, air-cooled, 150cc, CVT",210000,6,Available
+19,Suzuki,GSX-S150,"Naked bike / Single cylinder, liquid-cooled, 147cc, 6-speed",125000,13,Available
+20,Kawasaki,Z400,"Naked bike / Parallel-twin, liquid-cooled, 399cc, 6-speed",331000,10,Available
+21,Yamaha,Aerox 155,"Scooter / Single cylinder, liquid-cooled, 155cc, CVT",124000,20,Available
+22,Bristol,Bobber 650,"Cruiser / Parallel-twin, liquid-cooled, 649cc, 6-speed",398000,19,Available
+23,Keeway,RKS 150 Sport,"Standard / Single cylinder, air-cooled, 149cc, 5-speed",68900,20,Available
+24,Motorstar,Xplorer 250R,"Adventure / Single cylinder, oil-cooled, 223cc, 6-speed",78900,20,Available
+25,CFMoto,650MT,"Touring / Parallel-twin, liquid-cooled, 649cc, 6-speed",345000,4,Low Stock
+26,Honda,Click 125i,"Scooter / Single cylinder, liquid-cooled, 125cc, CVT",80900,15,Available
+27,Yamaha,Sniper 155,"Underbone / Single cylinder, liquid-cooled, 155cc, 6-speed",125900,2,Low Stock
+28,Bajaj,CT125,"Commuter / Single cylinder, air-cooled, 125cc, 4-speed",67900,11,Available
+29,Honda,CRF300L,"Dual-sport / Single cylinder, liquid-cooled, 286cc, 6-speed",284900,15,Available
+30,Rusi,Flash 125,"Commuter / Single cylinder, air-cooled, 125cc, 4-speed",48000,19,Available
+31,SYM,Jet X 150,"Scooter / Single cylinder, liquid-cooled, 149cc, CVT",128000,8,Available
+32,Harley-Davidson,Street 750,"Cruiser / V-twin, liquid-cooled, 749cc, 6-speed",499000,5,Low Stock
+33,Zontes,310X,"Adventure / Single cylinder, liquid-cooled, 312cc, 6-speed",248000,15,Available
+34,Aprilia,SR GT 200,"Scooter / Single cylinder, liquid-cooled, 174cc, CVT",219000,0,Out of Stock
+35,Yamaha,XMAX 300,"Scooter / Single cylinder, liquid-cooled, 292cc, CVT",319000,14,Available
+36,Benelli,502C,"Cruiser / Parallel-twin, liquid-cooled, 500cc, 6-speed",349000,14,Available
+37,Moto,Morini X-Cape 650,"Adventure / Parallel-twin, liquid-cooled, 649cc, 6-speed",369000,2,Low Stock
+38,Yamaha,FZi 150,"Street / Single cylinder, air-cooled, 149cc, 5-speed",99900,16,Available
+39,Vespa,GTS Super 300,"Scooter / Single cylinder, liquid-cooled, 278cc, CVT",398000,20,Available
+40,Kawasaki,KLX 230,"Dual-sport / Single cylinder, air-cooled, 233cc, 6-speed",199000,14,Available
+41,BMW,R nineT,"Heritage / Flat twin, air/oil-cooled, 1170cc, 6-speed",995000,9,Available
+42,Honda,Rebel 1100,"Cruiser / Parallel-twin, liquid-cooled, 1084cc, 6-speed",650000,15,Available
+43,KTM,790 Duke,"Naked bike / Parallel-twin, liquid-cooled, 799cc, 6-speed",599000,2,Low Stock
+44,CFMoto,300SR,"Sport / Single cylinder, liquid-cooled, 292cc, 6-speed",165000,1,Low Stock
+45,Italjet,Dragster 200,"Scooter / Single cylinder, liquid-cooled, 181cc, CVT",289000,9,Available
+46,Yamaha,Serow 250,"Dual-sport / Single cylinder, air-cooled, 249cc, 5-speed",299000,19,Available
+47,Suzuki,Burgman Street 125,"Scooter / Single cylinder, air-cooled, 124cc, CVT",80900,10,Available
+48,Zontes,GK350,"Cafe racer / Single cylinder, liquid-cooled, 348cc, 6-speed",269000,5,Low Stock
+49,Moto,Guzzi V7 Stone,"Heritage / V-twin, air-cooled, 853cc, 6-speed",689000,1,Low Stock
+50,SYM,Husky 150,"Underbone / Single cylinder, air-cooled, 150cc, CVT",72900,0,Out of Stock

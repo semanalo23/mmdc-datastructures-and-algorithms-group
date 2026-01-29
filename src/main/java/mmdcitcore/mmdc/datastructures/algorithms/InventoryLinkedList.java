@@ -61,4 +61,23 @@ public class InventoryLinkedList {
             temp = temp.next;
         }
     }
+    
+    //Converts linked list to an array (for the indexing)
+    public InventoryItem[] toArray(){
+        int size = 0;
+        InventoryNode temp = head;
+        while(temp != null){
+            size++;
+            temp = temp.next;
+        }
+        InventoryItem[] array = new InventoryItem[size];
+        temp = head;
+        int index = 0;
+        while (temp != null){
+            array[index++] = temp.data;
+            temp = temp.next;
+        }
+        
+        return array;
+    }
 }

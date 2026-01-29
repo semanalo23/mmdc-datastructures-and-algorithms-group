@@ -80,4 +80,9 @@ public class InventoryLinkedList {
         
         return array;
     }
+    
+    //getter for head
+    public InventoryNode getHead(){
+        return head;
+    }
 }

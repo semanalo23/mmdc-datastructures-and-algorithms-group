@@ -38,6 +38,8 @@ public class MmdcDatastructuresAlgorithms {
             System.out.println("5. Sort by Quantity");
             System.out.println("6. Delete Stock by Entry Number");
             System.out.println("7. Add New Stock");
+            System.out.println("8. Enter Entry Number to search: ");
+            System.out.println("9. Enter a Brand to Search: ");
             System.out.println("0. Exit");
             System.out.print("Enter choice: ");
             choice = sc.nextInt();
@@ -106,7 +108,25 @@ public class MmdcDatastructuresAlgorithms {
                     
                     System.out.println("New Stock added successfully.");
                     break;
+                    
+                case 8:
+                    System.out.print("Enter Entry Number to search: ");
+                    int searchNo = sc.nextInt();
+                    sc.nextLine();
+                    InventoryItem result = InventorySearch.searchByEntryNumber(inventoryList, searchNo);
+                        if (result != null) {
+                            System.out.println("Found: " + result);
+                        } else {
+                            System.out.println("No stock found with Entry Number: " + searchNo);
+                        }
+                    break;
                 
+                case 9 :
+                    System.out.print("Enter Brand to search: ");
+                    String brandSearch = sc.nextLine();
+                    InventorySearch.searchByBrand(inventoryList, brandSearch);
+                    break;
+                    
                 case 0:
                     System.out.println("Exiting...");
                     break;     

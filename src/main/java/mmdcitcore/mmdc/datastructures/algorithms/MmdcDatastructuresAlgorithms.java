@@ -123,6 +123,7 @@ public class MmdcDatastructuresAlgorithms {
                 
                 case 9 :
                     System.out.print("Enter Brand to search: ");
+                    sc.nextLine();
                     String brandSearch = sc.nextLine();
                     InventorySearch.searchByBrand(inventoryList, brandSearch);
                     break;

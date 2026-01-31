@@ -31,13 +31,13 @@ public class MmdcDatastructuresAlgorithms {
         int choice;
         do {
             System.out.println("\n=== Inventory Menu ===");
-            System.out.println("1. Display Inventory (Linked List)");
-            System.out.println("2. Convert to Array & Display");
-            System.out.println("3. Sort by Brand");
+            System.out.println("1. Display Inventory (sorted by brand, ascending)");
+            System.out.println("2. Add New Stock");
+            System.out.println("3. Delete New Stock by Entry Number");
             System.out.println("4. Sort by Price");
             System.out.println("5. Sort by Quantity");
-            System.out.println("6. Delete Stock by Entry Number");
-            System.out.println("7. Add New Stock");
+            System.out.println("6. Sort by Brand");
+            System.out.println("7. Convert List to Array");
             System.out.println("8. Enter Entry Number to search: ");
             System.out.println("9. Enter a Brand to Search: ");
             System.out.println("0. Exit");
@@ -46,15 +46,18 @@ public class MmdcDatastructuresAlgorithms {
             
             switch(choice){
                 case 1:
-                    inventoryList.displayInventory();
+                    System.out.println("Inventory (Sorted By Brand): ");
+                    InventoryItem[] array = inventoryList.toArray();
+                    InventorySorterBubbleSort.bubbleSortByBrand(array);//bubble sort ascending
+                    InventoryDisplay.displayArray(array);//prints the array
                     break;
                  
-                case 2:
-                    InventoryItem[] array = inventoryList.toArray();
-                    displayArray(array);
+                case 7:
+                    InventoryItem[] convArray = inventoryList.toArray();
+                    displayArray(convArray);
                     break;
                 
-                case 3:
+                case 6:
                     array = inventoryList.toArray();
                     bubbleSortByBrand(array);
                     displayArray(array);
@@ -72,13 +75,13 @@ public class MmdcDatastructuresAlgorithms {
                     displayArray(array);
                     break;
                 
-                case 6:
+                case 3:
                     System.out.println("Enter Entry Number to delete: ");
                     int entrNo = sc.nextInt();
                     inventoryList.deleteStock(entrNo);
                     break;
                     
-                case 7:
+                case 2:
                     System.out.print("Enter Entry Number: ");
                     entrNo = sc.nextInt();
                     sc.nextLine(); //consume newline
